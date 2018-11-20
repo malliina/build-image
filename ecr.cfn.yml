@@ -7,7 +7,7 @@ Parameters:
   BuildSpecFile:
     Type: String
     Description: Location of buildspec.yml relative to repo root
-    Default: build-images/buildspec.yml
+    Default: buildspec.yml
     MinLength: '1'
     MaxLength: '256'
     AllowedPattern: '[a-zA-Z][-a-zA-Z0-9/.]*'
@@ -16,7 +16,7 @@ Parameters:
   GitHubRepository:
     Type: String
     Description: HTTPS GitHub Repository URL
-    Default: https://github.com/malliina/cfn.git
+    Default: https://github.com/malliina/build-image.git
     MinLength: '1'
     MaxLength: '256'
     AllowedPattern: https://[a-zA-Z0-9:/.]*
